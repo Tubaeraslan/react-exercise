@@ -17,6 +17,7 @@ function App() {
   let names = ["Tuba","Enes","Ayşe","Kübra","Adem"];
   return (
     //html kodları
+    //kkk
     <div>
       {/* <p>a değişkeninin değeri : {a}</p>
       <p>ad : {firstName}</p> */}
