@@ -1,8 +1,17 @@
 import React from 'react'
 
-function Product() {
+function Product(props) {
+  const {productName,price}=props;
   return (
-    <div>Product</div>
+    <div>
+      <div>ÜRÜN BİLGİLERİ</div>
+
+      <div>
+        <div>İsim: {productName}</div>
+        <div>Fiyat: {price} tl</div>
+      </div>
+
+    </div>
   )
 }
 
